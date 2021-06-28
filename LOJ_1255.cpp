@@ -1,4 +1,4 @@
-  #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 #define ll long long
 #define ull unsigned long long
 #define MOD 1000000007
@@ -9,7 +9,7 @@ using namespace std;
 
 void solve()
 {
- 	string a, b;
+  string a, b;
   cin >> a >> b;
 ///  cout << a << " " << b << endl;
   string S = b + '#' + a;
@@ -31,7 +31,7 @@ void solve()
 
 int main() {
   int T, caseno = 0;
-	scanf("%d", &T);
+  scanf("%d", &T);
   while (T--)
   {
   	printf("Case %d: ", ++caseno);
